@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8b1bd63c9fc98c469bd2e0e08ccbe86, type: 3}
+  m_Name: TennisSlot 1
+  m_EditorClassIdentifier: 
+  SportType: 1
+  SportFormat: 0
+  MatchTime: 1 Set
+  Command1: Igorev Pyotr Yakovlevich
+  Command2: Mikhalev Sergey Alexandrovich
+  MatchName: 
+  P1: 2.15
+  P2: 1.205
+  BCount: 3
+  BValue: 2.1
+  MCount: 3
+  MValue: 2.1
+  Command1Logo: {fileID: 1321148396, guid: 215ea7a33add37a4daa1372fc6eae5f9, type: 3}
+  Command2Logo: {fileID: -1166164721, guid: 215ea7a33add37a4daa1372fc6eae5f9, type: 3}
