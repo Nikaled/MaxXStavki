@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: Hockey Slot 8
   m_EditorClassIdentifier: 
   SportType: 3
-  SportFormat: 1
+  SportFormat: 0
   MatchTime: 
-  Command1: "\u0414\u0435\u043F\u0430\u0440\u0442\u0438\u0432\u043E"
-  Command2: "\u0421\u0435\u0432\u0438\u043B\u044C\u044F"
-  MatchName: "\u041B\u0424\u041F"
+  Command1: Deportivo
+  Command2: Sevilla
+  MatchName: LFP
   P1: 2.5
   P2: 2.1
   BCount: 2
   BValue: 1.8
   MCount: 2
   MValue: 1.8
+  Command1Logo: {fileID: 21300000, guid: 37b900c0ae3c91c4683c885dd2d00163, type: 3}
+  Command2Logo: {fileID: 21300000, guid: 69b5ed0a2041ad74f9050d48e792f96e, type: 3}

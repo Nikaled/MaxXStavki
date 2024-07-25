@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TennisSlot 5
   m_EditorClassIdentifier: 
   SportType: 1
-  SportFormat: 1
+  SportFormat: 0
   MatchTime: 
   Command1: Arturov Pyotr Mikhailovich
   Command2: Myasin Sergey Sergeevich

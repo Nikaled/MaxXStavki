@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Football 6
   m_EditorClassIdentifier: 
   SportType: 0
-  SportFormat: 1
+  SportFormat: 0
   MatchTime: 
   Command1: Chepaevsk
   Command2: Norilsk
@@ -24,5 +24,5 @@ MonoBehaviour:
   BValue: 1.4
   MCount: 2
   MValue: 1.4
-  Command1Logo: {fileID: 0}
-  Command2Logo: {fileID: 0}
+  Command1Logo: {fileID: 21300000, guid: 7a741baaa004a8b4e912b991bb8ca5db, type: 3}
+  Command2Logo: {fileID: 21300000, guid: 6bad72051f77a0345b9e7b665077cb64, type: 3}

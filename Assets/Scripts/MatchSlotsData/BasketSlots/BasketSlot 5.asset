@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BasketSlot 5
   m_EditorClassIdentifier: 
   SportType: 2
-  SportFormat: 1
+  SportFormat: 0
   MatchTime: 
   Command1: Gagarin
   Command2: Vladivostock

@@ -13,14 +13,16 @@ MonoBehaviour:
   m_Name: Hockey Slot 10
   m_EditorClassIdentifier: 
   SportType: 3
-  SportFormat: 3
+  SportFormat: 0
   MatchTime: 
-  Command1: "\u0427\u0435\u043F\u0430\u0435\u0432\u0441\u043A"
-  Command2: "\u041D\u043E\u0440\u0438\u043B\u044C\u0441\u043A"
-  MatchName: "\u0420\u041F\u041B"
+  Command1: Chepaevsk
+  Command2: Norilsk
+  MatchName: RPL
   P1: 2.15
   P2: 1.312
   BCount: 2
   BValue: 1.4
   MCount: 2
   MValue: 1.4
+  Command1Logo: {fileID: 21300000, guid: 7a741baaa004a8b4e912b991bb8ca5db, type: 3}
+  Command2Logo: {fileID: 21300000, guid: 6bad72051f77a0345b9e7b665077cb64, type: 3}

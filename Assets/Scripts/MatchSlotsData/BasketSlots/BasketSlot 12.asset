@@ -13,16 +13,16 @@ MonoBehaviour:
   m_Name: BasketSlot 12
   m_EditorClassIdentifier: 
   SportType: 2
-  SportFormat: 3
+  SportFormat: 0
   MatchTime: 
   Command1: Deportivo
   Command2: Sevilla
-  MatchName: "\u041B\u0424\u041F"
+  MatchName: LFP
   P1: 2.5
   P2: 2.1
   BCount: 87
   BValue: 1.8
   MCount: 87
   MValue: 1.8
-  Command1Logo: {fileID: 0}
-  Command2Logo: {fileID: 0}
+  Command1Logo: {fileID: 21300000, guid: 37b900c0ae3c91c4683c885dd2d00163, type: 3}
+  Command2Logo: {fileID: 21300000, guid: 69b5ed0a2041ad74f9050d48e792f96e, type: 3}

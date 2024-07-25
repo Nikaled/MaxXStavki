@@ -29,28 +29,29 @@ public class MatchSlotManager : MonoBehaviour
             newSlot.SetDataValue(MatchSlotDatas[i], GetIcon(MatchSlotDatas[i].SportType));
             MatchSlots.Add(newSlot);
             newSlot.gameObject.SetActive(false);
-            SetLogos(newSlot);
+            //SetNamesToEng(MatchSlotDatas[i], ref MatchSlotDatas[i].Command1);
+            //SetNamesToEng(MatchSlotDatas[i], ref MatchSlotDatas[i].Command2);
+            //SetLogos(newSlot);
             SetCommandSprites(newSlot);
-            SetNamesToEng(MatchSlotDatas[i], ref MatchSlotDatas[i].Command1);
-            SetNamesToEng(MatchSlotDatas[i], ref MatchSlotDatas[i].Command2);
-            if (MatchSlotDatas[i].MatchTime != string.Empty)
-            {
-                if (MatchSlotDatas[i].MatchTime[0] == '1')
-                {
-                    MatchSlotDatas[i].MatchTime = "1 Time";
-                }
-            }
-            if (MatchSlotDatas[i].MatchName != string.Empty)
-            {
-                if (MatchSlotDatas[i].MatchName == "пок")
-                {
-                    MatchSlotDatas[i].MatchName = "RPL";
-                }
-                if (MatchSlotDatas[i].MatchName == "кто")
-                {
-                    MatchSlotDatas[i].MatchName = "LFP";
-                }
-            }
+
+            //if (MatchSlotDatas[i].MatchTime != string.Empty)
+            //{
+            //    if (MatchSlotDatas[i].MatchTime[0] == '1')
+            //    {
+            //        MatchSlotDatas[i].MatchTime = "1 Time";
+            //    }
+            //}
+            //if (MatchSlotDatas[i].MatchName != string.Empty)
+            //{
+            //    if (MatchSlotDatas[i].MatchName == "пок")
+            //    {
+            //        MatchSlotDatas[i].MatchName = "RPL";
+            //    }
+            //    if (MatchSlotDatas[i].MatchName == "кто")
+            //    {
+            //        MatchSlotDatas[i].MatchName = "LFP";
+            //    }
+            //}
 
         }
     }

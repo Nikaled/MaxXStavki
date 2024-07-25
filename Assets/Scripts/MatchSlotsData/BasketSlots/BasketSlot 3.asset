@@ -24,5 +24,5 @@ MonoBehaviour:
   BValue: 1.8
   MCount: 87
   MValue: 1.8
-  Command1Logo: {fileID: 0}
-  Command2Logo: {fileID: 0}
+  Command1Logo: {fileID: 21300000, guid: f9a18e069aa97e048a4ab3a6f97a2ec2, type: 3}
+  Command2Logo: {fileID: 21300000, guid: 7ef14b66cd2b85341be5ba7e1bfde449, type: 3}
