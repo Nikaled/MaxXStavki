@@ -14,13 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SportType: 2
   SportFormat: 0
-  MatchTime: "1-\u0439 \u0422\u0430\u0439\u043C"
-  Command1: "\u041F\u043E\u0434\u043E\u043B\u044C\u0441\u043A"
-  Command2: "\u041C\u043E\u0441\u043A\u0432\u0430"
-  MatchName: "\u0420\u041F\u041B"
+  MatchTime: 1 Time
+  Command1: Podolsk
+  Command2: Moscow
+  MatchName: RPL
   P1: 2.3
   P2: 1.7
   BCount: 87
   BValue: 1.8
   MCount: 87
   MValue: 1.8
+  Command1Logo: {fileID: 0}
+  Command2Logo: {fileID: 0}

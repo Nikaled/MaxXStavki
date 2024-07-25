@@ -8742,8 +8742,8 @@ MonoBehaviour:
   - {fileID: -424112381, guid: ac3dde3c410ec0a4482b3a1287c7f16f, type: 3}
   - {fileID: -2074010129, guid: 6b7ee2cd19b6e204fac4cfc42b5f8f44, type: 3}
   MatchesParent: {fileID: 147872824}
-  TypeActivated: 
-  FormatActivated: 
+  TypeActivated: 0000000000
+  FormatActivated: 00000000
   CommandSprites:
   - {fileID: 1321148396, guid: 215ea7a33add37a4daa1372fc6eae5f9, type: 3}
   - {fileID: -1166164721, guid: 215ea7a33add37a4daa1372fc6eae5f9, type: 3}

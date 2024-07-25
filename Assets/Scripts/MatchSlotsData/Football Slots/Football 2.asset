@@ -14,13 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SportType: 0
   SportFormat: 0
-  MatchTime: "2-\u0439 \u0422\u0430\u0439\u043C"
-  Command1: "\u0413\u0430\u0433\u0430\u0440\u0438\u043D"
-  Command2: "\u0421\u0430\u0444\u043E\u043D\u043E\u0432\u043E"
-  MatchName: "\u0420\u041F\u041B"
+  MatchTime: 2 Time
+  Command1: Gagarin
+  Command2: Safonovo
+  MatchName: RPL
   P1: 2.15
   P2: 1.312
   BCount: 2
   BValue: 1.4
   MCount: 2
   MValue: 1.4
+  Command1Logo: {fileID: 0}
+  Command2Logo: {fileID: 0}

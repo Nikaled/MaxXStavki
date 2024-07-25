@@ -15,12 +15,14 @@ MonoBehaviour:
   SportType: 0
   SportFormat: 3
   MatchTime: 
-  Command1: "\u0414\u0435\u043F\u0430\u0440\u0442\u0438\u0432\u043E"
-  Command2: "\u0421\u0435\u0432\u0438\u043B\u044C\u044F"
-  MatchName: "\u041B\u0424\u041F"
+  Command1: Deportivo
+  Command2: Sevilla
+  MatchName: LFP
   P1: 2.5
   P2: 2.1
   BCount: 2
   BValue: 1.8
   MCount: 2
   MValue: 1.8
+  Command1Logo: {fileID: 0}
+  Command2Logo: {fileID: 0}

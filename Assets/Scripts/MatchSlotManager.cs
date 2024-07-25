@@ -17,6 +17,7 @@ public class MatchSlotManager : MonoBehaviour
     {
         instance = this;
     }
+    [ContextMenu("SetData")]
     private void Start()
     {
         TypeActivated = new bool[5];
@@ -28,18 +29,29 @@ public class MatchSlotManager : MonoBehaviour
             newSlot.SetDataValue(MatchSlotDatas[i], GetIcon(MatchSlotDatas[i].SportType));
             MatchSlots.Add(newSlot);
             newSlot.gameObject.SetActive(false);
-            //SetLogos(newSlot);
+            SetLogos(newSlot);
             SetCommandSprites(newSlot);
-            //SetNamesToEng(MatchSlotDatas[i], ref MatchSlotDatas[i].Command1);
-            //SetNamesToEng(MatchSlotDatas[i], ref MatchSlotDatas[i].Command2);
-            //if(MatchSlotDatas[i].MatchTime != string.Empty)
-            //{
-            //    if (MatchSlotDatas[i].MatchTime[0] == '2')
-            //    {
-            //        MatchSlotDatas[i].MatchTime = "2 Time";
-            //    }
-            //}
-           
+            SetNamesToEng(MatchSlotDatas[i], ref MatchSlotDatas[i].Command1);
+            SetNamesToEng(MatchSlotDatas[i], ref MatchSlotDatas[i].Command2);
+            if (MatchSlotDatas[i].MatchTime != string.Empty)
+            {
+                if (MatchSlotDatas[i].MatchTime[0] == '1')
+                {
+                    MatchSlotDatas[i].MatchTime = "1 Time";
+                }
+            }
+            if (MatchSlotDatas[i].MatchName != string.Empty)
+            {
+                if (MatchSlotDatas[i].MatchName == "РПЛ")
+                {
+                    MatchSlotDatas[i].MatchName = "RPL";
+                }
+                if (MatchSlotDatas[i].MatchName == "ЛФП")
+                {
+                    MatchSlotDatas[i].MatchName = "LFP";
+                }
+            }
+
         }
     }
 
@@ -120,72 +132,70 @@ public class MatchSlotManager : MonoBehaviour
     {
         SetLogoForCommand(slot.MatchSlotData.Command1,ref slot.MatchSlotData.Command1Logo, slot);
         SetLogoForCommand(slot.MatchSlotData.Command2,ref slot.MatchSlotData.Command2Logo, slot);
-//        Гагарин 3
-//   Владивосток 13
-//Чепаевск 0
-//Норильск 6
-//Мадрид 4
-//Эспаньоло 2
-//Департиво 1
-//Севилья  10
-//Вязьма 14
-//Тула 12
-//Сафоново 9
-//Подольск 8
-//Москва 5
-//Санкт - Петербург 7
-//Сочи 11
+
+        //        Гагарин 3 - Gagarin
+        //   Владивосток 13 - Vladivostock
+        //Чепаевск 0 - Chepaevsk
+        //Норильск 6 - Norilsk
+        //Мадрид 4 - Madrid
+        //Эспаньоло 2 - Espanyol
+        //Департиво 1 - Deportivo
+        //Севилья  10 - Sevilla 
+        //Вязьма 14 - Vyazma
+        //Тула 12 - Tula
+        //Сафоново 9 - Safonovo
+        //Подольск 8 - Podolsk
+        //Москва 5 - Moscow
+        //Санкт - Петербург 7 - St. Peterburg
+        //Сочи 11 - Sochi
 
         void SetLogoForCommand(string CommandName, ref Sprite commandSprite, MatchSlot slot)
         {
             switch (CommandName)
             {
-                case "Чепаевск":
+                case "Chepaevsk":
                     commandSprite = CommandLogos[0];
                     break;
-                case "Департиво":
+                case "Deportivo":
                     commandSprite = CommandLogos[1];
                     break;
-                case "Эспаньоло":
+                case "Espanyol":
                     commandSprite = CommandLogos[2];
                     break;
-                case "Гагарин":
+                case "Gagarin":
                     commandSprite = CommandLogos[3];
                     break;
-                case "Мадрид":
+                case "Madrid":
                     commandSprite = CommandLogos[4];
                     break;
-                case "Москва":
+                case "Moscow":
                     commandSprite = CommandLogos[5];
                     break;
-                case "Норильск":
+                case "Norilsk":
                     commandSprite = CommandLogos[6];
                     break;
-                case "Санкт - Петербург":
+                case "St. Peterburg":
                     commandSprite = CommandLogos[7];
                     break;
-                case "Санкт-Петербург":
-                    commandSprite = CommandLogos[7];
-                    break;
-                case "Подольск":
+                case "Podolsk":
                     commandSprite = CommandLogos[8];
                     break;
-                case "Сафоново":
+                case "Safonovo":
                     commandSprite = CommandLogos[9];
                     break;
-                case "Севилья":
+                case "Sevilla":
                     commandSprite = CommandLogos[10];
                     break;
-                case "Сочи":
+                case "Sochi":
                     commandSprite = CommandLogos[11];
                     break;
-                case "Тула":
+                case "Tula":
                     commandSprite = CommandLogos[12];
                     break;
-                case "Владивосток":
+                case "Vladivostock":
                     commandSprite = CommandLogos[13];
                     break;
-                case "Вязьма":
+                case "Vyazma":
                     commandSprite = CommandLogos[14];
                     break;
                 default:

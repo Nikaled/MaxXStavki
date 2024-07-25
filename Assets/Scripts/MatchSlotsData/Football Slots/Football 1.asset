@@ -14,13 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SportType: 0
   SportFormat: 0
-  MatchTime: "1-\u0439 \u0422\u0430\u0439\u043C"
-  Command1: "\u0412\u044F\u0437\u044C\u043C\u0430"
-  Command2: "\u0422\u0443\u043B\u0430"
-  MatchName: "\u0420\u041F\u041B"
+  MatchTime: 1 Time
+  Command1: Vyazma
+  Command2: Tula
+  MatchName: RPL
   P1: 2.15
   P2: 1.205
   BCount: 2
   BValue: 2.1
   MCount: 2
   MValue: 2.1
+  Command1Logo: {fileID: 0}
+  Command2Logo: {fileID: 0}

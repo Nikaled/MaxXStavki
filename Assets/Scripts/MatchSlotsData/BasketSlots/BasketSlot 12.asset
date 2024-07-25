@@ -15,8 +15,8 @@ MonoBehaviour:
   SportType: 2
   SportFormat: 3
   MatchTime: 
-  Command1: "\u0414\u0435\u043F\u0430\u0440\u0442\u0438\u0432\u043E"
-  Command2: "\u0421\u0435\u0432\u0438\u043B\u044C\u044F"
+  Command1: Deportivo
+  Command2: Sevilla
   MatchName: "\u041B\u0424\u041F"
   P1: 2.5
   P2: 2.1
@@ -24,3 +24,5 @@ MonoBehaviour:
   BValue: 1.8
   MCount: 87
   MValue: 1.8
+  Command1Logo: {fileID: 0}
+  Command2Logo: {fileID: 0}

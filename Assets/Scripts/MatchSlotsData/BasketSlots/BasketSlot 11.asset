@@ -15,12 +15,14 @@ MonoBehaviour:
   SportType: 2
   SportFormat: 3
   MatchTime: 
-  Command1: "\u041C\u0430\u0434\u0440\u0438\u0434"
-  Command2: "\u042D\u0441\u043F\u0430\u043D\u044C\u043E\u043B\u043E"
-  MatchName: "\u041B\u0424\u041F"
+  Command1: Madrid
+  Command2: Espanyol
+  MatchName: LFP
   P1: 2.3
   P2: 1.7
   BCount: 87
   BValue: 1.8
   MCount: 87
   MValue: 1.8
+  Command1Logo: {fileID: 0}
+  Command2Logo: {fileID: 0}
